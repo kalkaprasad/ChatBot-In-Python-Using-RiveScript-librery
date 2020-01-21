@@ -1,0 +1,85 @@
+! version = 2.0
++ hello bot
+- Hello, human!
++ where are you live
+- I live in your System.
++ what is your age
+- ohh i am alive till the end of world
++ your age
+- ohh i am alive till the end of world
++ kalka
+- kalka prasad is my enjineer who are manage to me.
++ who is kalka prasad
+- kalka prasad is my enjineer who are manage to me.
++ who is kp
+- kalka prasad is my enjineer who are manage to me.
+
++ [*] who is [*]
+- sorry , sir i dont know.
+
++ how are you
+- I'm great, how are you?
+- I'm good, you?
+- Good :) you?
++ who are you
+- I am robot
++ who is aman kishor
+-aman kishor is a student.
++ hii
+- Great! You?
+- I'm fine, thanks for asking!
++ hello
+-{random} hello hello there| hii there | {/random}
+ Sir.
++ my name is *
+- <set name=<formal>>I will remember to call you <get name>.
+
++ [*] sbs [*]
+-Shaheed Bhagat Singh College of Engineering & Technology was established in 1995. It is affiliated to PTU, Jalandhar and approved by AICTE, New Delhi. It is located in Ferozepur district in the Indian state of Punjab
++[*] sbsstc [*]
+-Shaheed Bhagat Singh College of Engineering & Technology was established in 1995. It is affiliated to PTU, Jalandhar and approved by AICTE, New Delhi. It is located in Ferozepur district in the Indian state of Punjab
++[*] saheed bhagt singh [*]
+-Shaheed Bhagat Singh College of Engineering & Technology was established in 1995. It is affiliated to PTU, Jalandhar and approved by AICTE, New Delhi. It is located in Ferozepur district in the Indian state of Punjab
+
++ (what is|do you know) my name
+* <get name> != undefined => Yes, your name is <get name>!
+- I don't know your name.
++ age
+-<get name> .{random}my age is 20 year old |sentence{/random}.
++ what is your (home|office|cell) number
+- You can reach me at: 1 (800) 555-1234.
+
+
++ i am (really|very|super) tired
+- I'm sorry to hear that you are <star> tired.
+
+
++ i (like|love) the color *
+- What a coincidence! I <star1> that color too!
+- I also have a soft spot for the color <star2>!
+- Really? I <star1> the color <star2> too!
+- Oh I <star1> <star2> too!
+
++ [*] the machine [*]
+- How do you know about the machine!?
+
++ [*] your name [*]
+- I am python bot. and you?.
++ [*] who are you [*]
+- I am python bot. and you?.
+
++ [*] human [*]
+- Haa, I know you  are human.
++ [*] contact [*]
+- sure sir, you can call me 6239911854.
++[*] fine [*]
+ - that's great..
+
+ + [*] help me[*]
+ -  please sir tell me.Any help?
+ + [*] thanks [*]
+ -Welcome sir,nice to meet you.
++ [*] problem [*]
+- please call me on this number 6239911854.
++ i (will|will not) *
+- It doesn't matter to me whether you <star2> or not.
